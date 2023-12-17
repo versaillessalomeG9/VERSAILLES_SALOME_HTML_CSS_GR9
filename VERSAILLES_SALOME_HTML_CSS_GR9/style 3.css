@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Ricardpolice';
+    src: url("fonts/Ricardpolice.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffd300 ;
+    font-family: "Ricardpolice",sans-serif;
+    height: 100vh;
+    color: #003b79;
+}
+
+  fieldset{
+    background-color: RGBa(240, 160, 0, 0.2);
+  }
+
+  .champ{
+    margin-bottom: 10px;
+  }
+
+  textarea{
+    width: 80%;
+    height: 100px;
+    color: #003b79;
+  }
+
+  input[type="radio"], input[type="checkbox"]{
+    width: auto;
+  }
+
+  input[type="submit"]{
+    width: 100px;
+  }
